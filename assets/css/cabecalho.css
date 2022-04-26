@@ -16,6 +16,18 @@
     width: 100px;
 }
 
+@media screen and (min-width: 1440px) {
+    .cabecalho {
+        background: linear-gradient(#FEFEFE, #888888);
+        display: grid;
+        grid-template-columns: 1fr auto;
+        padding: 16px 60px;
+        height: 80px;
+        box-sizing: border-box;
+        grid-column: 2;
+    }
+}
+
 /* Seção do Menu lateral */
 
 .menu-lateral {
@@ -47,4 +59,42 @@
     padding-left: 64px;
     display: flex;
     align-items: center;
+}
+
+.menu-lateral__link--ativo {
+    color: #FFFFFF;
+    padding-left: 56px;
+    border-left: 8px solid #FFFFFF;
+}
+
+.menu-lateral__link::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    position: absolute;
+    left: 24px;
+}
+
+
+/* Lembrar de adicionar os ícones
+/* .menu-lateral__link--home::before {
+    content: "";
+}
+
+.menu-lateral__link--home::before {
+    content: "";
+}
+
+.menu-lateral__link--home::before {
+    content: "";
+} */
+
+@media screen and (min-width: 1440px) {
+    .menu-lateral{
+        position: static;
+        width: 200px;
+        grid-column: 1;
+        grid-row: 1 / span 2;
+    }
 }
