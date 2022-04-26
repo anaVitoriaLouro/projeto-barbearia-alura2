@@ -10,8 +10,9 @@
     justify-content: space-between;
     align-items: center;
     background-color: #BBBBBB;
-    padding: 8px 16px;
+    padding: 8px 25px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+
 }
 
 .cabecalho__menu i::before {
@@ -23,17 +24,37 @@
     width: 100px;
 }
 
+.cabecalho-menu-item {
+    display: none;
+}
+
 @media screen and (min-width: 1440px) {
     .cabecalho {
-        background: linear-gradient(#FEFEFE, #888888);
-        display: grid;
-        grid-template-columns: 1fr auto;
-        padding: 16px 60px;
-        height: 80px;
-        box-sizing: border-box;
+        background: #BBBBBB;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 16px 100px;
         grid-column: 2;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    }
+
+    .cabecalho__menu {
+        display: none;
+    }
+
+
+    .cabecalho-menu-item {
+        display: flex;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        text-decoration: none;
     }
 }
+
+
 
 /* Seção do Menu lateral */
 
@@ -41,7 +62,7 @@
     display: flex;
     flex-direction: column;
     background-color: #15191C;
-    width: 75vw;
+    width: 60vw;
     height: 100vh;
 
     position: absolute;
@@ -54,18 +75,15 @@
     transition: .25s;
 }
 
-.menu-lateral__logo {
-    width: 100px;
-    align-self: center;
-    padding: 16px;
-}
 
 .menu-lateral__link {
     height: 64px;
     color: #95999C;
+    margin-top: 20px;
     padding-left: 64px;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .menu-lateral__link--ativo {
@@ -98,10 +116,15 @@
 } */
 
 @media screen and (min-width: 1440px) {
-    .menu-lateral{
+    /* .menu-lateral {
         position: static;
         width: 200px;
         grid-column: 1;
         grid-row: 1 / span 2;
+    } */
+
+
+    .menu-lateral {
+        display: none;
     }
 }
