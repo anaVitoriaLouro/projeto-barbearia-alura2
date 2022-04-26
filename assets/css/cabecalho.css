@@ -61,9 +61,10 @@
 .menu-lateral {
     display: flex;
     flex-direction: column;
-    background-color: #15191C;
+    background-color: #F3F1F5;
     width: 60vw;
     height: 100vh;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
 
     position: absolute;
     left: -100vw;
@@ -78,7 +79,7 @@
 
 .menu-lateral__link {
     height: 64px;
-    color: #95999C;
+    color: #000000;
     margin-top: 20px;
     padding-left: 64px;
     display: flex;
@@ -116,14 +117,6 @@
 } */
 
 @media screen and (min-width: 1440px) {
-    /* .menu-lateral {
-        position: static;
-        width: 200px;
-        grid-column: 1;
-        grid-row: 1 / span 2;
-    } */
-
-
     .menu-lateral {
         display: none;
     }
