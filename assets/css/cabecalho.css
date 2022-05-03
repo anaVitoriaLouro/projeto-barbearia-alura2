@@ -16,7 +16,7 @@
 }
 
 .cabecalho__menu i::before {
-    content: "#";
+    content: "☰";
     font-size: 24px;
 }
 
@@ -93,28 +93,11 @@
     border-left: 8px solid #FFFFFF;
 }
 
-.menu-lateral__link::before {
-    content: "";
-    width: 24px;
-    height: 24px;
+.menu-lateral__link--home::before, .menu-lateral__link--produtos::before, .menu-lateral__link--contato::before {
+    content: ">";
     font-size: 24px;
-    position: absolute;
-    left: 24px;
+    padding: 10px;
 }
-
-
-/* Lembrar de adicionar os ícones
-/* .menu-lateral__link--home::before {
-    content: "";
-}
-
-.menu-lateral__link--home::before {
-    content: "";
-}
-
-.menu-lateral__link--home::before {
-    content: "";
-} */
 
 @media screen and (min-width: 1440px) {
     .menu-lateral {
