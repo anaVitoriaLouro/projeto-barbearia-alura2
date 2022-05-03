@@ -1,0 +1,30 @@
+.conteudo-sobre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4em;
+}
+
+/* .conteudo-sobre-escrito {
+    align-items: center;
+
+} */
+
+.conteudo-sobre-titulo {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+    font-size: 30px;
+    border-bottom: 0.4px  groove #000000 ;
+}
+
+.conteudo-sobre-imagem {
+    float: left;
+    height: 250px;
+    margin: 2em 1em 0 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.conteudo-sobre p {
+    margin: 2em 0 1em;
+}
