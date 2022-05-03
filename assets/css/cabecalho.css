@@ -54,8 +54,6 @@
     }
 }
 
-
-
 /* Seção do Menu lateral */
 
 .menu-lateral {
@@ -75,7 +73,6 @@
     left: 0;
     transition: .25s;
 }
-
 
 .menu-lateral__link {
     height: 64px;
