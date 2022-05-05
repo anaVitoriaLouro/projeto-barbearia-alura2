@@ -1,10 +1,3 @@
-@media screen and (min-width: 1440px) {
-    body {
-        display: grid;
-        grid-template-columns: auto 1fr;
-    }
-}
-
 .cabecalho {
     display: flex;
     justify-content: space-between;
