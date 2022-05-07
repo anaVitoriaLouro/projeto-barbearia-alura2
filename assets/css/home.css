@@ -28,3 +28,13 @@
 .conteudo-sobre p {
     margin: 2em 0 1em;
 }
+
+@media screen and (min-width: 1440px) {
+    .conteudo-sobre-escrito {
+        margin: 0 10em;
+    }
+
+    .conteudo-sobre p {
+        font-size: 19px;
+    }
+}
