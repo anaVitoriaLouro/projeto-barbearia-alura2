@@ -54,7 +54,6 @@
 
 .conteudo-diferenciais {
     margin-top: 1em;
-    display: flex;
 }
 
 /* .imagem-diferenciais {
@@ -72,4 +71,71 @@
 
 .lista-diferenciais-itens {
     line-height: 1.5;
+}
+
+/* Seção 'Institucional' */
+
+.institucional {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.institucional-descricao {
+    margin-bottom: 2rem;
+}
+
+.institucional-endereco {
+    font-size: 1.5rem;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+.institucional-contato {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-top: 2rem;
+}
+
+.institucional-contato-telefone {
+    line-height: normal;
+}
+
+.institucional-contato-email {
+    text-decoration: underline;
+    display: block;
+}
+
+/* .institucional-video {
+    width: 100vw;
+} */
+
+@media screen and (min-width: 768px){
+    .institucional-contato-email {
+        display: inline-block
+    }
+
+    .institucional-video {
+        width: 100%
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .institucional-conteudo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    /* .institucional-video {
+        align-self: flex-end;
+        width: 375px;
+    } */
+
+    .institucional-contato-email {
+        display: block;
+    }
 }
