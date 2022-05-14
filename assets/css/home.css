@@ -43,3 +43,32 @@
 
 /* Seção 'Diferenciais' */
 
+
+.diferenciais {
+    margin-top: 3em;
+}
+
+.conteudo-escrito-diferenciais {
+    margin: 0 1em;
+}
+
+.conteudo-diferenciais {
+    margin-top: 1em;
+    display: flex;
+}
+
+.imagem-diferenciais {
+    float: right;
+    height: 190px;
+    margin: 1em 1em 0 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+.lista-diferenciais-itens::before {
+    content: "★";
+}
+
+.lista-diferenciais-itens {
+    line-height: 1.5;
+}
