@@ -57,16 +57,17 @@
     display: flex;
 }
 
-.imagem-diferenciais {
+/* .imagem-diferenciais {
     float: right;
     height: 190px;
     margin: 1em 1em 0 0;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
+} */
 
 
 .lista-diferenciais-itens::before {
     content: "★";
+    padding-right: .5em;
 }
 
 .lista-diferenciais-itens {
