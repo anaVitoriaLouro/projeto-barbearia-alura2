@@ -82,12 +82,17 @@
     padding-bottom: 2rem;
 }
 
+.institucional-conteudo {
+    margin-top: 1.5em;
+}
+
 .institucional-descricao {
+    font-size: 1.5em;
     margin-bottom: 2rem;
 }
 
 .institucional-endereco {
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: normal;
     margin-bottom: 2rem;
 }
